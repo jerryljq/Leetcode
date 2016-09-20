@@ -10,8 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e760668e-9fa8-43d4-bd19-8a00443f09dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q389.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q226.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q136.h" afterPath="$PROJECT_DIR$/q136.h" />
     </list>
     <ignored path="Leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,8 +66,8 @@
       <file leaf-file-name="q136.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/q136.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-796">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="189">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -92,11 +93,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="q389.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="q389.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/q389.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="63">
               <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="q226.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/q226.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -135,11 +146,12 @@
         <option value="$PROJECT_DIR$/q119.h" />
         <option value="$PROJECT_DIR$/q371.h" />
         <option value="$PROJECT_DIR$/q292.h" />
-        <option value="$PROJECT_DIR$/q136.h" />
         <option value="$PROJECT_DIR$/q258.h" />
         <option value="$PROJECT_DIR$/104.h" />
         <option value="$PROJECT_DIR$/q104.h" />
         <option value="$PROJECT_DIR$/q389.h" />
+        <option value="$PROJECT_DIR$/q136.h" />
+        <option value="$PROJECT_DIR$/q226.h" />
       </list>
     </option>
   </component>
@@ -574,18 +586,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q136.h">
+    <entry file="file://$PROJECT_DIR$/q389.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-796">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="63">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q389.h">
+    <entry file="file://$PROJECT_DIR$/q136.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+        <state relative-caret-position="189">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q226.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
           <folding />
         </state>
       </provider>

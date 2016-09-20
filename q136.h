@@ -8,7 +8,6 @@
  See the code and descriptions below.
  ******************************** End ****************************
 */
-
 #ifndef LEETCODE_Q136_H
 #define LEETCODE_Q136_H
 
