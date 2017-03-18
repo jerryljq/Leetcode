@@ -6,7 +6,7 @@
  For example, given nums = [0, 1, 0, 3, 12], after calling your function, nums should be [1, 3, 12, 0, 0].
  Note: You must do this in-place without making a copy of the array. Minimize the total number of operations.
  ***************************** Solution **************************
- The results do not come randomly. Find the periodically rule.
+
  ******************************** End ****************************
 */
 #ifndef LEETCODE_Q283_H
@@ -14,10 +14,12 @@
 
 class Solution {
 public:
+    // This seems to be an O(n^2) algorithm
     void moveZeroes(vector<int>& nums) {
         int numberOfZero = 0;
         for(int i = 0; i < nums.size(); i++) {
             if(nums[i] == 0) {
+                // Erase method has linear time complexity
                 nums.erase(nums.begin() + i);
                 i-=1;
                 numberOfZero += 1;

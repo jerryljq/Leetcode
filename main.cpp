@@ -4,11 +4,13 @@
 
 #include <iostream>
 #include <cstring>
-#include "q344.c"
+#include "q338.c"
 
 using namespace std;
 
 int main(int argc, const char *argv[]) {
-    char *str = "hello";
-    puts(reverseString(str));
+    // char *str = "hello";
+    int number = 6;
+    Solution solution;
+    // std::cout << solution.countBits(number) << std::endl;
 }
