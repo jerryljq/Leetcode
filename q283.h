@@ -12,6 +12,8 @@
 #ifndef LEETCODE_Q283_H
 #define LEETCODE_Q283_H
 
+#include "commons.h"
+
 class Solution {
 public:
     // This seems to be an O(n^2) algorithm

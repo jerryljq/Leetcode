@@ -24,6 +24,8 @@ to
 #ifndef LEETCODE_Q226_H
 #define LEETCODE_Q226_H
 
+#include "commons.h"
+
 class Solution {
 public:
     TreeNode* invertTree(TreeNode* root) {

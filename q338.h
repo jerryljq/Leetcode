@@ -5,7 +5,7 @@
 #ifndef LEETCODE_Q338_H
 #define LEETCODE_Q338_H
 
-#endif //LEETCODE_Q338_H
+#include "commons.h"
 
 class Solution {
 public:
@@ -28,3 +28,5 @@ public:
         return resultVector;
     }
 };
+
+#endif //LEETCODE_Q338_H

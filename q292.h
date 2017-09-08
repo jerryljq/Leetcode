@@ -13,6 +13,8 @@ For example, if there are 4 stones in the heap, then you will never win the game
 #ifndef LEETCODE_Q292_H
 #define LEETCODE_Q292_H
 
+#include "commons.h"
+
 class Solution {
 public:
     bool canWinNim(int n) {

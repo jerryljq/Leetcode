@@ -5,6 +5,8 @@
 #ifndef LEETCODE_Q119_H
 #define LEETCODE_Q119_H
 
+#include "commons.h"
+
 class Solution {
 public:
     vector<int> getRow(int rowIndex) {

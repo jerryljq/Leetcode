@@ -14,6 +14,8 @@
 #ifndef LEETCODE_Q371_H
 #define LEETCODE_Q371_H
 
+#include "commons.h"
+
 class Solution {
 public:
     int getSum(int a, int b) {

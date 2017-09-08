@@ -5,7 +5,7 @@
 #ifndef LEETCODE_Q563_H
 #define LEETCODE_Q563_H
 
-#endif //LEETCODE_Q563_H
+#include "commons.h"
 
 /**
  * Definition for a binary tree node.
@@ -44,3 +44,5 @@ public:
         }
     }
 };
+
+#endif //LEETCODE_Q563_H

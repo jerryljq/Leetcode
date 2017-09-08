@@ -12,6 +12,8 @@
 #ifndef LEETCODE_Q389_H
 #define LEETCODE_Q389_H
 
+#include "commons.h"
+
 class Solution {
 public:
     // This solution gives O(s+t) time complexity, which is linear

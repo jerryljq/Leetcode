@@ -11,6 +11,8 @@
 #ifndef LEETCODE_Q136_H
 #define LEETCODE_Q136_H
 
+#include "commons.h"
+
 class Solution {
 public:
     // This naive version is based on brute-force method. It requires O(n^2) time but no extra space.

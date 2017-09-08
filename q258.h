@@ -13,6 +13,8 @@
 #ifndef LEETCODE_Q258_H
 #define LEETCODE_Q258_H
 
+#include "commons.h"
+
 class Solution {
 public:
     // A naive solution which contains two nested loops.
