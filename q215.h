@@ -14,8 +14,8 @@ You may assume k is always valid, 1 ≤ k ≤ array's length.
  * Learned this Selection Algorithm in CMPT307
  ******************************** End ****************************
 */
-#ifndef LEETCODE_Q162_H
-#define LEETCODE_Q162_H
+#ifndef LEETCODE_Q215_H
+#define LEETCODE_Q215_H
 
 #include "commons.h"
 class Solution {
