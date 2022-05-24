@@ -4,12 +4,13 @@ This is a repository of my Leetcode solutions. I will update this repo once I so
 
 I might categorize these problems by their types in the future.
 
-This repo is written in C++.
+This repo is written in C++ (before 2018) and C# (Updated 2022).
 
 ## How to use
 * Header `common.h` defines some regular libraries that will be used in each problem, such as **map**, **vector** container from STL.
 * `main.cpp` is the entry of all those solution. For each problem, include relevant `q[prob number].h` file into `main.cpp`. You can also handle input and output inside this main file.
 * To compile, just simply execute `g++ main.cpp`.
+* Note: some C# solutions were added after I have been working at Microsoft. Sorry I just got used to C# and need more time to switch my mind back to C++ TAT...
 
 ## List of solved problems
 
