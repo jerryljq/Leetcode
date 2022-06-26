@@ -38,7 +38,6 @@ public class Solution {
                 var lastLeft = stack.Pop();
                 if (stack.Count() == 0) {
                     var nextString = Decode(s, lastLeft.Item2+1, index-1);
-                    Console.WriteLine($"Next string {nextString} Count is {count}");
                     for (int j = 0; j < count; ++j) {
                         result.Append(nextString);
                     }
