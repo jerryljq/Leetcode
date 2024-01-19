@@ -42,7 +42,7 @@ path is a valid absolute Unix path.
 public class Solution {
     public string SimplifyPath(string path) {
         var folders = path.Split('/');
-        var stack = new Stack<string>();
+        var stack = new List<string>();
         var pathString = new StringBuilder();
 
         foreach (var folderName in folders) {
@@ -52,24 +52,19 @@ public class Solution {
 
             if (string.Equals("..", folderName)) {
                 if (stack.Count > 0) {
-                    stack.Pop();
+                    stack.RemoveAt(stack.Count-1);
                 }
                 continue;
             }
 
-            stack.Push(folderName);
+            stack.Add(folderName);
         }
 
-        pathString.Append('/');
-        var stackArray = stack.ToArray();
-
-        for (int i = stack.Count-1; i >= 0; --i) {
-            pathString.Append(stackArray[i]);
-            if (i != 0) {
-                pathString.Append('/');
-            }
+        foreach (var folderName in stack) {
+            pathString.Append('/');
+            pathString.Append(folderName);
         }
 
-        return pathString.ToString();
+        return pathString.Length > 0 ? pathString.ToString() : "/";
     }
 }
